@@ -14,7 +14,7 @@ const CalcScreen = Styled.input`
 `;
 
 const CalcKeys = Styled.div`
-  width: 89.5%;
+  width: 90%;
   height: auto;
   border: .5px solid hsl(196,100%,63%);
   display: grid;
@@ -22,7 +22,7 @@ const CalcKeys = Styled.div`
 `;
 
 const NumCont = Styled.div`
-width: 99%;
+width: 100%;
 height: auto;
 display: grid;
 grid-gap: 1px;
@@ -30,7 +30,7 @@ grid-template-columns: auto auto auto;
 `;
 
 const OpCont = Styled.div`
-width: 99%;
+width: 100%;
 height: auto;
 display: grid;
 grid-gap: 1px;
@@ -38,11 +38,11 @@ grid-template-columns: auto;
 `;
 
 const Numpad = Styled.div`
-width: 99%;
+width: 100%;
 height: 40px;
-padding: 1%;
 border: .5px solid hsl(196,100%,63%);
 display: flex;
+flex-flow: row nowrap;
 justify-content: center;
 align-items: center;
 `;
